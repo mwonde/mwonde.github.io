@@ -1,3 +1,4 @@
+/*display*/
 *{
 	margin: 0px;
 	padding: 0px;
@@ -21,3 +22,39 @@
 	border-style: solid;
 	border-color: green;
 }
+
+/*box-model*/
+
+
+.outer{
+	width: 400px;
+	height: 400px;
+	background-color: green;
+/*	margin-top: 50px;
+	margin-right: 
+	margin-bottom:
+	margin-left: 50px;*/
+
+
+	/*margin: 100px;*/
+
+	margin: 50px 100px; /*top-bottom right-left*/
+
+	margin: 50px 100px 0px; /*top right-left bottom*/
+
+	margin: 25px 15px 50px 100px;
+	box-sizing: border-box;
+	border: 10px black dotted;
+	border-radius: 50%;
+/*	padding-top: 10px;
+	padding-left: 25px;*/
+	padding: 25% 25% 25% 25%;
+
+}
+
+.outer .inner{
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+}
+
